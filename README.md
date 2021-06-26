@@ -12,16 +12,20 @@ This app provides accessible control options to a user wishing to control the fl
 
 ### Folder Structure
 ```
-Goes here
+
 ```
 
 ### Required installations
-* Tba
-* Tba
+* FlightFear 2020.3.8 (For windows 7,8,10)
+* Android Studio 4.2.1 or higher
 
 ### Compiling and Running
 1. Download this repository.
-2. Tba
+2. Open FlightSimulator.exe.
+3. Go to setting and add the following configuration line: "--telnet=socket,in,10,127.0.0.1,6400,tcp".
+4. Run the code on an Android emulator through Android Studio.
+Alternatively, open the "Build" section in Android Studio then click "Build APK(s)" then run the APK on your phone using developer tools.
 
 ### Additional Links
-Tba
+Tba UML
+Tba Video
