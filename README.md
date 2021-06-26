@@ -54,7 +54,7 @@ This app provides accessible control options to a user wishing to control the fl
 2. Open FlightSimulator.exe.
 3. Go to setting and add the following configuration line: "--telnet=socket,in,10,127.0.0.1,6400,tcp".
 4. Run the code on an Android emulator through Android Studio.
-Alternatively, open the "Build" section in Android Studio then click "Build APK(s)" then run the APK on your phone using developer tools.
+* Alternatively, open the "Build" section in Android Studio then click "Build APK(s)" then run the APK on your phone using developer tools.
 
 ### Additional Links
 * [UML Diagram](UML.png)
