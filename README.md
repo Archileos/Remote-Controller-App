@@ -57,5 +57,5 @@ This app provides accessible control options to a user wishing to control the fl
 Alternatively, open the "Build" section in Android Studio then click "Build APK(s)" then run the APK on your phone using developer tools.
 
 ### Additional Links
-Tba UML
-Tba Video
+* [UML Diagram](UML.png)
+* [Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
