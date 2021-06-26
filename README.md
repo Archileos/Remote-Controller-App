@@ -12,11 +12,41 @@ This app provides accessible control options to a user wishing to control the fl
 
 ### Folder Structure
 ```
-
+├── RemoteJoystick
+│   ├── app - contains the source code for the app as well as additional configurations.
+│   │   ├── src - contains the source code for the app and test files.
+│   │   │   ├── main - contains the source code for the app.
+│   │   │   │   ├── java - 
+│   │   │   │   │   ├── ... Model - contains the model part of the project, this part communicates with Flightgear.
+│   │   │   │   │   ├── ... Model_View - contains the model view part of the project, this part is the middle man between the model and view that adjusts data and │   │   │   │   │   │   │       transfers the data from view to the model.
+│   │   │   │   │   ├── ... View - contains the model part of the project.
+│   │   │   │   │   │   ├── MainActivity - is responsible for behind the scenes data extraction from xml to be passed on to the model view.
+│   │   │   │   │   │   └── Joystick - is responsible for the joystick on the screen.
+│   │   │   │   ├── res - 
+│   │   │   │   │   ├── layout - the executable file of the application.
+│   │   │   │   │   │   ├── activity_main.xml - the xml which is responsable for everything the user sees.
+│   │   │   │   │   └── ... - various folders for graphics.
+│   │   │   │   └── AndroidManifest.xml - 
+│   │   │   ├── test - contains the source code for the app.
+│   │   │   └── androidTest - contains the source code for the app.
+│   │   ├── build - contains the images displayed during the execution of the application.
+│   │   ├── libs - additional libraries.
+│   │   ├── build.gradle - gradle configurations.
+│   │   └── proguard-rules.pro - Android Studio assisting files.
+│   ├── .gradle - Android Studio assisting files.
+│   ├── .idea - Android Studio assisting files.
+│   ├── gradle - Android Studio wrapper.
+│   ├── build.gradle - gradle configurations.
+│   ├── gradle.properties - gradle configurations.
+│   ├── gradlew - gradle configurations.
+│   ├── gradlew.bat - gradle configurations.
+│   ├── local.properties - Android Studio configurations.
+│   └── setting.gradle - gradle configurations.
+└── plugins - contains the minimal circle dll and linear regression dll files.
 ```
 
 ### Required installations
-* FlightFear 2020.3.8 (For windows 7,8,10)
+* FlightGear 2020.3.8 (For windows 7,8,10)
 * Android Studio 4.2.1 or higher
 
 ### Compiling and Running
