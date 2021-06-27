@@ -61,4 +61,4 @@ This app provides accessible control options to a user wishing to control the fl
 
 ### Additional Links
 * [UML Diagram](UML.png)
-* [Video](https://youtu.be/yOPwi-C3aP4)
+* [App Walkthrough](https://youtu.be/yOPwi-C3aP4)
