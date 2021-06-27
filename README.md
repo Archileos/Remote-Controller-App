@@ -25,6 +25,7 @@ This app provides accessible control options to a user wishing to control the fl
 │   │   │   │   ├── res - 
 │   │   │   │   │   ├── layout - the executable file of the application.
 │   │   │   │   │   │   ├── activity_main.xml - the xml which is responsable for everything the user sees.
+│   │   │   │   │   ├── drawable - holds additional design for seekbars and the app icon.
 │   │   │   │   │   └── ... - various folders for graphics.
 │   │   │   │   └── AndroidManifest.xml - 
 │   │   │   ├── test - contains the source code for the app.
