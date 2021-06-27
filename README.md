@@ -1,5 +1,6 @@
 # Remote-Controller-App
 Advanced Programming 2 Project
+* [App](App.png)
 
 ### Summary
 This app provides accessible control options to a user wishing to control the flight simulator known as flight gear remotely, by connecting to the flight simulator using a socket and sending appropriate commands to the flight simulator server. The app presents a joystick as well as slide bars to adjust the flight by changing the aileron, elevator, rudder or throttle values of the current flight by utilizing control setting provided by the simulator itself.
@@ -25,6 +26,7 @@ This app provides accessible control options to a user wishing to control the fl
 │   │   │   │   ├── res - 
 │   │   │   │   │   ├── layout - the executable file of the application.
 │   │   │   │   │   │   ├── activity_main.xml - the xml which is responsable for everything the user sees.
+│   │   │   │   │   ├── drawable - holds additional design for seekbars and the app icon.
 │   │   │   │   │   └── ... - various folders for graphics.
 │   │   │   │   └── AndroidManifest.xml - 
 │   │   │   ├── test - contains the source code for the app.
